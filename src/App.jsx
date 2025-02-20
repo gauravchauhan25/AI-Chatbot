@@ -1,10 +1,14 @@
-import React from "react";
-import Chatbot from "./components/Chatbot";
+import Sidebar from "./components/Sidebar";
+import ChatInterface from "./components/ChatInterface";
 
 function App() {
   return (
-    <div className="bg-gray-900 min-h-screen flex items-center justify-center">
-      <Chatbot />
+    <div className="flex h-screen bg-gray-900 text-white">
+      <Sidebar />
+
+      <div className="flex-1 flex flex-col">
+        <ChatInterface />
+      </div>
     </div>
   );
 }

@@ -1,18 +1,16 @@
 @import "tailwindcss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: none;
   box-sizing: border-box;
   text-decoration: none;
 }
 
 :root {
+  --spacing: 4px;
   --color-background: #232222;
   --color-font: #fff;
   --color-button: #4745bd;
